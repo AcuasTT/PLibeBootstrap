@@ -1,0 +1,59 @@
+body {
+  background-image: url("../img/bgnostale2.jpg");
+}
+
+body #bg {
+  background-image: url("../img/bgnostale.jpg");
+  background-repeat: no-repeat;
+}
+
+body .row {
+  margin: 0;
+  padding: 0;
+}
+
+body .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+body #logo {
+  margin: 0 auto;
+}
+
+body .navbar-dark {
+  background-color: black;
+}
+
+body #contenido {
+  background-color: rgba(189, 189, 189, 0.6);
+  color: black;
+}
+
+body #contenido a {
+  text-decoration: none;
+  color: black;
+}
+
+body .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .cards .cardtitle {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .cards .cardcontent {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=nostale.css.map */

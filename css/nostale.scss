@@ -1,0 +1,43 @@
+$color_1: black;
+$background_color_1: black;
+$background_color_2: rgba(189, 189, 189, 0.6);
+
+body {
+	background-image: url("../img/bgnostale2.jpg");
+	#bg {
+		background-image: url("../img/bgnostale.jpg");
+		background-repeat: no-repeat;
+	}
+	.row {
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid {
+		margin: 0;
+		padding: 0;
+	}
+	#logo {
+		margin: 0 auto;
+	}
+	.navbar-dark {
+		background-color: $background_color_1;
+	}
+	#contenido {
+		background-color: $background_color_2;
+		color: $color_1;
+		a {
+			text-decoration: none;
+			color: $color_1;
+		}
+	}
+	.cards {
+		display: flex;
+		flex-direction: column;
+		.cardtitle {
+			justify-content: flex-start;
+		}
+		.cardcontent {
+			justify-content: flex-end;
+		}
+	}
+}

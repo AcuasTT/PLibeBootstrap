@@ -1,0 +1,82 @@
+body {
+  background-color: black;
+}
+
+body img {
+  opacity: 0.5;
+}
+
+body img:hover {
+  opacity: 1;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+body .row {
+  margin: 0;
+  padding: 0;
+}
+
+body .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+body .btn-danger {
+  background-color: red;
+}
+
+body .breadcrumb {
+  background-color: black;
+}
+
+body .breadcrumb a {
+  color: #0099ff;
+}
+
+body #grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+body .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20%;
+  background-color: transparent;
+}
+
+body .cards h3 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .cards img {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+  #grid {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,45 @@
+body {
+  background-image: url("../img/bgnostale2.jpg");
+}
+
+body #bg {
+  background-image: url("../img/bgnostale.jpg");
+  background-repeat: no-repeat;
+}
+
+body .row {
+  margin: 0;
+  padding: 0;
+}
+
+body .container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+body #logo {
+  margin: 0 auto;
+}
+
+body .navbar-dark {
+  background-color: black;
+}
+
+body #contenido {
+  background-color: #cfcdcd;
+  color: black;
+}
+
+body #contenido .noticia {
+  background-color: #e7e7e7;
+}
+
+body #contenido .sidebar {
+  background-color: #e7e7e7;
+}
+
+body #contenido a {
+  text-decoration: none;
+  color: black;
+}
+/*# sourceMappingURL=noticia.css.map */

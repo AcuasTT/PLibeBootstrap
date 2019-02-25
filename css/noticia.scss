@@ -1,0 +1,40 @@
+$color_1: black;
+$background_color_1: black;
+$background_color_2: rgb(207, 205, 205);
+$background_color_3: rgb(231, 231, 231);
+
+body {
+	background-image: url("../img/bgnostale2.jpg");
+	#bg {
+		background-image: url("../img/bgnostale.jpg");
+		background-repeat: no-repeat;
+	}
+	.row {
+		margin: 0;
+		padding: 0;
+	}
+	.container-fluid {
+		margin: 0;
+		padding: 0;
+	}
+	#logo {
+		margin: 0 auto;
+	}
+	.navbar-dark {
+		background-color: $background_color_1;
+	}
+	#contenido {
+		background-color: $background_color_2;
+		color: $color_1;
+		.noticia {
+			background-color: $background_color_3;
+		}
+		.sidebar {
+			background-color: $background_color_3;
+		}
+		a {
+			text-decoration: none;
+			color: $color_1;
+		}
+	}
+}
